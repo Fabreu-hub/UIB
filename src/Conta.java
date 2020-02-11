@@ -1,8 +1,8 @@
 
 public class Conta {
 
-	public String NumeroConta;
-	public Double SaldoConta;
-	
+	public String numeroConta;
+	public Double saldoConta;
+	public Cliente donoDaConta;
 	
 }

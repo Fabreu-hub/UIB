@@ -1,7 +1,7 @@
 
 public class Cliente {
 			
-	public String NomeCliente;
-	public String CPF ;
+	public String nomeCliente;
+	public String cpf ;
 	
 }
