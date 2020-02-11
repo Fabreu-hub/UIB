@@ -8,6 +8,8 @@ public class UIBMain {
 		
 		clientes.cpf = "09574041409";
 		clientes.nomeCliente = "filipe abreu";
+		clientes.contaCliente= conta;
+		
 		
 		conta.numeroConta = "224786";
 		conta.saldoConta = 4000.0;
@@ -20,7 +22,7 @@ public class UIBMain {
 		System.out.println(conta.saldoConta);
 		
 		System.out.println(conta.donoDaConta.nomeCliente + " tem " + conta.saldoConta);
-		
+		System.out.println(clientes.nomeCliente + "  tem " + clientes.contaCliente.saldoConta);
 	}
 
 }
